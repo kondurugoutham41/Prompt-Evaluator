@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Model files (too large for GitHub - use Git LFS or store separately)
+models/prompt_evaluator/model.safetensors
+models/prompt_evaluator/classifier.pt
+
+# Data files (large CSVs)
+data/*.csv
+
+# Logs
+logs/*.log
+logs/training_history.csv
+
+# Environment
+.env
+*.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Cache
+*.cache
+.cache/
